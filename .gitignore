@@ -1,1 +1,43 @@
 /qrcode-number
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# FastAPI specific
+instance/
+
+# Docker
+docker-compose.override.yml
+*.log
+docker-compose*.yml
+.env
+*.local
